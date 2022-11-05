@@ -1,14 +1,23 @@
+
 # KeyLogger
- Keylogger made in python
- 
- This is a key Logger made with python it takes and records key in a file named "log.txt".
- This program may completely work till the user press the 'esc' key.
- On pressing 'esc' key it may brake the program.
- It will append everything in the file one after another.
- 
-#Requirements:
-    pynput module must be installed before use
-    
-    To intall pynput run:
-    $ pip install pynput
-    $ pip3 install pynput
+
+**A basic Keylogger made in python.**
+####
+*This program records and saves each key pressed and released by the user in a file name:* **"log.txt"** *and appends after every usage.* 
+######
+*The program brakes after **'esc'** key is pressed.*
+
+
+
+## Installation
+
+Use the package manager pip to install pynput.
+
+```bash
+$ pip install pynput
+```
+
+## Authors
+
+- [@Sanjipan](https://github.com/Sanjipan)
+
