@@ -7,7 +7,7 @@
  It will append everything in the file one after another.
  
 #Requirements:
-    pynput module must be installed before use
+    pynput module must be installed before use \n
     To intall pynput run:
     $ pip install pynput
     $ pip3 install pynput
